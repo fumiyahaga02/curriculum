@@ -7,7 +7,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>search</servlet-name>
-		<url-pattern>/8-2/sample</url-pattern>
+		<url-pattern>/search</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>

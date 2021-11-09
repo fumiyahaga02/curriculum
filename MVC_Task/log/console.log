@@ -1,0 +1,118 @@
+情報: Serverのバージョン名:     Apache Tomcat/10.0.12 [月 11月 08 17:45:43 JST 2021]
+情報: Server ビルド:            Sep 28 2021 13:34:21 UTC [月 11月 08 17:45:43 JST 2021]
+情報: サーバーのバージョン番号: 10.0.12.0 [月 11月 08 17:45:43 JST 2021]
+情報: OS 名:                    Windows 10 [月 11月 08 17:45:43 JST 2021]
+情報: OS バージョン:            10.0 [月 11月 08 17:45:43 JST 2021]
+情報: アーキテクチャ:           amd64 [月 11月 08 17:45:43 JST 2021]
+情報: Java Home:                C:\pleiades-2021-09-java-win-64bit-jre_20210919\pleiades\java\17 [月 11月 08 17:45:43 JST 2021]
+情報: JVM バージョン:           17-beta+35-202109162336 [月 11月 08 17:45:43 JST 2021]
+情報: JVM ベンダ:               Eclipse Adoptium [月 11月 08 17:45:43 JST 2021]
+情報: CATALINA_BASE:            C:\LetsEngineer\curriculum\.metadata\.plugins\org.eclipse.wst.server.core\tmp0 [月 11月 08 17:45:43 JST 2021]
+情報: CATALINA_HOME:            C:\pleiades-2021-09-java-win-64bit-jre_20210919\pleiades\tomcat\apache-tomcat-10.0.12 [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.base=C:\LetsEngineer\curriculum\.metadata\.plugins\org.eclipse.wst.server.core\tmp0 [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades-2021-09-java-win-64bit-jre_20210919\pleiades\tomcat\apache-tomcat-10.0.12 [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       -Dwtp.deploy=C:\LetsEngineer\curriculum\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [月 11月 08 17:45:43 JST 2021]
+情報: コマンドライン引数:       -XX:+ShowCodeDetailsInExceptionMessages [月 11月 08 17:45:43 JST 2021]
+情報: APRバージョン[1.7.0]を使用してAPRベースのApache Tomcatネイティブライブラリ[1.2.31]をロードしました。 [月 11月 08 17:45:43 JST 2021]
+情報: APR機能：IPv6 [true]、sendfile true]、受け入れフィルタ[false]、ランダム[true]、UDS [true] [月 11月 08 17:45:43 JST 2021]
+情報: OpenSSLは[OpenSSL 1.1.1l  24 Aug 2021]を正常に初期化しました。 [月 11月 08 17:45:43 JST 2021]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [月 11月 08 17:45:43 JST 2021]
+情報: サーバーの初期化 [1737]ms [月 11月 08 17:45:44 JST 2021]
+情報: サービス [Catalina] を起動します [月 11月 08 17:45:44 JST 2021]
+情報: サーブレットエンジンの起動：[Apache Tomcat/10.0.12] [月 11月 08 17:45:44 JST 2021]
+警告: セッション ID を生成するための SecureRandom インスタンスの作成に [201] ミリ秒かかりました。アルゴリズムは [SHA1PRNG] です。 [月 11月 08 17:45:45 JST 2021]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [月 11月 08 17:45:47 JST 2021]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [月 11月 08 17:45:48 JST 2021]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [月 11月 08 17:45:48 JST 2021]
+情報: サーバーの起動 [4293]ms [月 11月 08 17:45:48 JST 2021]
+[MEMORY:20342888][2021/11/08 05:45:49.703] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
+[MEMORY:21049488][2021/11/08 05:45:51.466] [skillcheck.controller.BaseServlet] [<init>] [54] START
+[MEMORY:21736744][2021/11/08 05:45:51.471] [skillcheck.controller.BaseServlet] [<init>] [58] END
+[MEMORY:21736744][2021/11/08 05:45:51.480] [skillcheck.controller.EmployeeManagementController] [doPost] [97] START
+[MEMORY:21736744][2021/11/08 05:45:51.481] [skillcheck.controller.EmployeeManagementController] [getRequestType] [193] START
+[MEMORY:21736744][2021/11/08 05:45:51.485] [skillcheck.controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
+[MEMORY:21736744][2021/11/08 05:45:51.487] [skillcheck.controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = skillcheck.bean.ResponseBean@504078b0
+[MEMORY:21736744][2021/11/08 05:45:51.488] [skillcheck.controller.EmployeeManagementController] [getRequestType] [225] END
+[MEMORY:21736744][2021/11/08 05:45:51.488] [skillcheck.controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
+[MEMORY:21736744][2021/11/08 05:45:51.489] [skillcheck.controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = [ここへ記述]
+[MEMORY:21736744][2021/11/08 05:45:51.490] [skillcheck.controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
+[MEMORY:21736744][2021/11/08 05:45:51.490] [skillcheck.controller.EmployeeManagementController] [doPost] [161] reqStatus  = 0
+[MEMORY:21736744][2021/11/08 05:45:51.492] [skillcheck.controller.EmployeeManagementController] [doPost] [162] reqMessage = null
+[MEMORY:21736744][2021/11/08 05:45:51.492] [skillcheck.controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
+重大: サーブレット [employee] のServlet.service()が例外を投げました [月 11月 08 17:45:51 JST 2021]
+[MEMORY:23833792][2021/11/08 05:50:17.726] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:23833792][2021/11/08 05:50:17.729] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:24518880][2021/11/08 05:50:19.090] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:24518880][2021/11/08 05:50:19.091] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:25203968][2021/11/08 05:50:36.326] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:25203968][2021/11/08 05:50:36.326] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:25243792][2021/11/08 05:50:37.026] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:25243792][2021/11/08 05:50:37.026] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:24931664][2021/11/08 05:52:18.706] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:24931664][2021/11/08 05:52:18.706] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:25421016][2021/11/08 05:52:32.416] [skillcheck.controller.EmployeeManagementController] [doPost] [97] START
+重大: サーブレット [employee] のServlet.service()が例外を投げました [月 11月 08 17:52:32 JST 2021]
+[MEMORY:25421016][2021/11/08 05:52:32.416] [skillcheck.controller.EmployeeManagementController] [getRequestType] [193] START
+[MEMORY:25421016][2021/11/08 05:52:32.416] [skillcheck.controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
+[MEMORY:25421016][2021/11/08 05:52:32.416] [skillcheck.controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = skillcheck.bean.ResponseBean@1135055f
+[MEMORY:25421016][2021/11/08 05:52:32.417] [skillcheck.controller.EmployeeManagementController] [getRequestType] [225] END
+[MEMORY:25421016][2021/11/08 05:52:32.417] [skillcheck.controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
+[MEMORY:25421016][2021/11/08 05:52:32.417] [skillcheck.controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = [ここへ記述]
+[MEMORY:25421016][2021/11/08 05:52:32.417] [skillcheck.controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
+[MEMORY:25421016][2021/11/08 05:52:32.417] [skillcheck.controller.EmployeeManagementController] [doPost] [161] reqStatus  = 0
+[MEMORY:25421016][2021/11/08 05:52:32.417] [skillcheck.controller.EmployeeManagementController] [doPost] [162] reqMessage = null
+[MEMORY:25421016][2021/11/08 05:52:32.417] [skillcheck.controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
+[MEMORY:26469608][2021/11/08 05:54:25.996] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:26469608][2021/11/08 05:54:25.996] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:11808040][2021/11/08 05:55:29.377] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:11808040][2021/11/08 05:55:29.378] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:12458840][2021/11/08 05:55:57.623] [skillcheck.controller.EmployeeManagementController] [doPost] [97] START
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [getRequestType] [193] START
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = skillcheck.bean.ResponseBean@5ec3607f
+重大: サーブレット [employee] のServlet.service()が例外を投げました [月 11月 08 17:55:57 JST 2021]
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [getRequestType] [225] END
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = [ここへ記述]
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [doPost] [161] reqStatus  = 0
+[MEMORY:12458840][2021/11/08 05:55:57.624] [skillcheck.controller.EmployeeManagementController] [doPost] [162] reqMessage = null
+[MEMORY:12458840][2021/11/08 05:55:57.625] [skillcheck.controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
+[MEMORY:12508832][2021/11/08 05:56:02.397] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:12508832][2021/11/08 05:56:02.398] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:12715800][2021/11/08 05:56:44.789] [skillcheck.controller.EmployeeManagementController] [doPost] [97] START
+[MEMORY:12715800][2021/11/08 05:56:44.789] [skillcheck.controller.EmployeeManagementController] [getRequestType] [193] START
+[MEMORY:12715800][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
+[MEMORY:12715800][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = skillcheck.bean.ResponseBean@4addbd91
+[MEMORY:12715800][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [getRequestType] [225] END
+[MEMORY:12715800][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
+[MEMORY:12715800][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = [ここへ記述]
+[MEMORY:12765824][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
+[MEMORY:12765824][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [doPost] [161] reqStatus  = 0
+[MEMORY:12765824][2021/11/08 05:56:44.790] [skillcheck.controller.EmployeeManagementController] [doPost] [162] reqMessage = null
+[MEMORY:12765824][2021/11/08 05:56:44.792] [skillcheck.controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
+重大: サーブレット [employee] のServlet.service()が例外を投げました [月 11月 08 17:56:44 JST 2021]
+[MEMORY:15539016][2021/11/09 02:42:41.927] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
+[MEMORY:16139432][2021/11/09 02:42:44.014] [skillcheck.controller.EmployeeManagementController] [doPost] [97] START
+重大: サーブレット [employee] のServlet.service()が例外を投げました [火 11月 09 14:42:44 JST 2021]
+[MEMORY:16139432][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [getRequestType] [193] START
+[MEMORY:16139432][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
+[MEMORY:16172192][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = skillcheck.bean.ResponseBean@19c495e7
+[MEMORY:16172192][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [getRequestType] [225] END
+[MEMORY:16172192][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
+[MEMORY:16172192][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = [ここへ記述]
+[MEMORY:16172192][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
+[MEMORY:16204824][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [doPost] [161] reqStatus  = 0
+[MEMORY:16204824][2021/11/09 02:42:44.015] [skillcheck.controller.EmployeeManagementController] [doPost] [162] reqMessage = null
+[MEMORY:16204824][2021/11/09 02:42:44.016] [skillcheck.controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
+情報: 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。 [火 11月 09 17:45:08 JST 2021]
+情報: ProtocolHandler ["http-nio-8080"] を一時停止します。 [火 11月 09 17:45:08 JST 2021]
+情報: サービス [Catalina] を停止します [火 11月 09 17:45:08 JST 2021]
+情報: ProtocolHandler ["http-nio-8080"]の停止中 [火 11月 09 17:45:08 JST 2021]
+情報: ProtocolHandler ["http-nio-8080"] を破棄します。 [火 11月 09 17:45:08 JST 2021]

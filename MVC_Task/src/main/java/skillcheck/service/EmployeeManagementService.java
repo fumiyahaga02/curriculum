@@ -74,11 +74,13 @@ public final class EmployeeManagementService extends BaseService implements Empl
 			// FIXME Step-5-2: executeGetConnection()内を修正
 			// MEMO: Windowsは【control】、Macは【command】を押下しながらクリックすることでメソッド定義へジャンプ可能
 			super.executeGetConnection();
+//			super.executeGetConnection();
 
 			// 共通処理: 社員情報テーブルへのアクセス
 			// FIXME Step-5-3: SELECT文の実行(5-1, 5-2)
 			// Tips: executeSelectQueryメソッド内を修正してください。
 			this.executeSelectQuery(eCase, pEmployeeBeanList);
+//			this.executeSelectQuery(eCase, pEmployeeBeanList);
 
 			// SQL実行結果よりメタデータを取得
 			final ResultSetMetaData meta = resultSet.getMetaData();
@@ -155,8 +157,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
 //     * @return resultSet <pre>SQL取得結果</pre>
 //     * @throws MVCException
 
-	private void executeSelectQuery(final ExecuteCase eCase, final List<EmployeeBean> pEmployeeBeanList)
-			throws MVCException {
+	private void executeSelectQuery(final ExecuteCase eCase, final List<EmployeeBean> pEmployeeBeanList) throws MVCException {
 		Logger.logStart(new Throwable());
 
 		// クエリ構築用変数
@@ -182,6 +183,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
 				// FIXME Step-5-4: pEmployeeBeanListの「1件目の要素のみ」から社員情報を取得しなさい。
 				// Tips1: ループ文を使用すること（正解は複数パターンあります）
 				// Tips2: 格納先はローカル変数のempとすること
+				
 				// [ここへ記述]
 
 				if (Objects.nonNull(emp)) {

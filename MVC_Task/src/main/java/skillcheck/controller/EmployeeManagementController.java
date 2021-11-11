@@ -15,6 +15,7 @@ import skillcheck.bean.ResponseBean;
 import skillcheck.constant.ConstMessage;
 import skillcheck.exception.MVCException;
 import skillcheck.logger.Logger;
+import skillcheck.service.EmployeeManagementService;
 import skillcheck.util.RequestTypeUtil;
 import skillcheck.util.RequestTypeUtil.RequestType;
 
@@ -41,6 +42,7 @@ public final class EmployeeManagementController extends BaseServlet {
 
 		// FIXME Step-4-1: 社員情報管理サービスのインスタンスを生成しなさい。
 		// Tips: 定義済みフィールド変数を使用
+		new EmployeeManagementService();
 		// [ここへ記述]
 
 		boolean hasSession = false;
@@ -118,7 +120,8 @@ public final class EmployeeManagementController extends BaseServlet {
 		Function<HttpServletRequest, List<String>> rmdGetEmpIdList = (rmdRequest) -> {
 			// FIXME Step-4-2: 各jspよりPOSTで送信されたリクエストパラメーターの社員番号を取得しなさい。
 			// Tips: jsp側のname属性と一致させること
-			final String pEmpId = "[ここへ記述]";
+			final String pEmpId = "empId";
+//			final String pEmpId = "[ここへ記述]";
 			return Arrays.asList(pEmpId);
 		};
 		/* 関数型インターフェース（ラムダ式）- END */
@@ -139,6 +142,7 @@ public final class EmployeeManagementController extends BaseServlet {
 
 			// FIXME Step-4-3: 社員情報管理サービスのインスタンス変数を生成しなさい。
 			// Tips: 定義済みフィールド変数を使用
+			new EmployeeManagementService();
 			// [ここへ記述]
 
 			reqEmpIdList = rmdGetEmpIdList.apply(request);
@@ -168,6 +172,7 @@ public final class EmployeeManagementController extends BaseServlet {
 			// FIXME Step-4-4: 取得結果（ResponseBean）をjspへ渡すための処理を記述しなさい。
 			// Tips1: リクエストへレスポンス情報をセット
 			// Tips2: キー名は「CONST_REQUST_KEY_FOR_RESPONSE_BEAN」使用
+			request.setAttribute("CONST_REQUST_KEY_FOR_RESPONSE_BEAN", responseBean);
 			// [ここへ記述]
 
 			Logger.log(new Throwable(), "遷移先 = " + this.destinationTarget);

@@ -25,6 +25,7 @@
         // FIXME Step-2-1: リクエストよりレスポンスBeanを取得しなさい。
         // Tips: 正確な型（クラス）でキャストすること
         responseBean = (ResponseBean)request.getAttribute("CONST_REQUST_KEY_FOR_RESPONSE_BEAN");
+      	// responseBean = [ここへ記述];
         empResultList = responseBean.getEmplyeeBeanList();
         requestStatus = responseBean.getRequestStaus();
         message = responseBean.getMessage();
@@ -47,6 +48,7 @@
     <% if (requestStatus < 2 && !message.isEmpty()) { %>
         <!-- FIXME Step-2-2: 式（Expression）を用いてメッセージ（message）を表示しなさい。 -->
         <p><%=message%></p>
+        <!-- <p>[ここへ記述]</p> -->
     <% } %>
     <% if (!empResultList.isEmpty()) { %>
     <div class="div-table-list">
@@ -72,6 +74,11 @@
                 <td title="<%=emp.getMail()%>"><%=emp.getMail()%></td>
                 <td title="<%=emp.getProgramingLanguage()%>"><%=emp.getProgramingLanguage()%></td>
                 <td title="<%=emp.getComment()%>"><%=emp.getComment()%></td>
+<%-- 		<td id="empId">[ここへ記述</td>
+                <td title="<%=emp.getName()%>">[ここへ記述</td>
+                <td title="<%=emp.getMail()%>">[ここへ記述</td>
+                <td title="<%=emp.getProgramingLanguage()%>">[ここへ記述</td>
+                <td title="<%=emp.getComment()%>">[ここへ記述]</td> --%>
                 <td>
                     <form action="/MVC_Task/employee" method="get">
                         <input type="hidden" name="sender" value="/employeeResult.jsp"></input>

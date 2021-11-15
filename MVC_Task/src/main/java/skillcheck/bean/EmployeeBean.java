@@ -112,7 +112,7 @@ public final class EmployeeBean {
         this._name = name;
     }
 
-    /** @return String型の指名 */
+    /** @return String型の氏名 */
     public String getName() {
         return _name;
     }

@@ -98,9 +98,12 @@ public final class EmployeeManagementService extends BaseService implements Empl
 				// FIXME Step-5-8: SQLの抽出結果（resultSet）の各カラムデータを該当する社員情報Beanへセットしなさい。
 				// Tips1: セット項目: 社員番号、パスワード、名前、メールアドレス、プログラミング言語、コメント
 				// Tips2: 正解パターンは複数あり
-				EmployeeBean employeeBean = new EmployeeBean(this.resultSet.getString("empId"),
-						this.resultSet.getString("password"), this.resultSet.getString("name"),
-						this.resultSet.getString("mail"), this.resultSet.getString("programingLanguage"),
+				EmployeeBean employeeBean = new EmployeeBean(
+						this.resultSet.getString("empId"),
+						this.resultSet.getString("password"), 
+						this.resultSet.getString("name"),
+						this.resultSet.getString("mail"), 
+						this.resultSet.getString("programingLanguage"),
 						this.resultSet.getString("comment"));
 
 				// 社員情報リストへ追加
@@ -183,7 +186,9 @@ public final class EmployeeManagementService extends BaseService implements Empl
 				// FIXME Step-5-4: pEmployeeBeanListの「1件目の要素のみ」から社員情報を取得しなさい。
 				// Tips1: ループ文を使用すること（正解は複数パターンあります）
 				// Tips2: 格納先はローカル変数のempとすること
-				
+				for(EmployeeBean emp1:pEmployeeBeanList) {
+            		emp = emp1;
+            	}
 				// [ここへ記述]
 
 				if (Objects.nonNull(emp)) {
@@ -196,6 +201,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
 					// 2. 1で作成したオブジェクトをpreparedStatementへ格納
 					// Tips: sbQueryは、sbQuery.toString()でStringへ変換
 					// [ここへ記述]
+					preparedStatement = this.connection.prepareStatement(sbQuery.toString());
 
 					// LIKEを使用するため、パラメータを編集
 					final String empId = ExecuteCase.FIND_BY_EMPID_WITH_LIKE.equals(eCase)
@@ -205,9 +211,11 @@ public final class EmployeeManagementService extends BaseService implements Empl
 					// FIXME Step-5-6: preparedStatementに適切なパラメーターをセットしなさい。
 					// Tips: パラメータをセットするインデックスに注意
 					// [ここへ記述]
+							preparedStatement.setString(1, empId);
 
 					// FIXME Step-5-7: preparedStatementよりSQL(SELECT文)を実行し、resultSetへ結果を格納しなさい。
 					// [ここへ記述]
+							this.resultSet = preparedStatement.executeQuery();
 
 					Logger.log(new Throwable(), "SQL: " + this.preparedStatement.toString());
 				}

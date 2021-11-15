@@ -39,7 +39,7 @@ public abstract class BaseServlet extends HttpServlet {
 	/** ・リクエスト対象（リクエスト&レスポンスを渡す先）のjspファイル */
 	protected static final String CONST_DESTINATION_LOGIN_JSP = "/MVC_Task/login.jsp";
 	// FIXME Step-3-2: 実行結果表示用のjspファイルのパスを記述しなさい。
-	protected static final String CONST_DESTINATION_RESULT_JSP = "/MVC_Task/employeeResult.jsp";
+	protected static final String CONST_DESTINATION_RESULT_JSP = "/employeeResult.jsp";
 //    protected static final String CONST_DESTINATION_RESULT_JSP = "";
 
 	/* フィールド変数の定義 */
@@ -157,8 +157,12 @@ public abstract class BaseServlet extends HttpServlet {
 			// Tips1: 社員情報管理サービスはインスタンスが生成済みのものを利用すること ems?
 			// Tips2: 完全一致検索の社員情報取得を呼び出すこと
 			// Tips3: 第二引数の渡し方に注意すること
-			ems.getEmployeeData(ExecuteCase.FIND_BY_EMPID, resEmployeeBean);
+//			ems.getEmployeeData(ExecuteCase.FIND_BY_EMPID, resEmployeeBean);
             // ←ここへ記述
+			EmployeeBean eId = new EmployeeBean(reqEmpId);
+        	ems= new EmployeeManagementService();
+        	responseBean =  ems.getEmployeeData(ExecuteCase.FIND_BY_EMPID, eId);
+//        	ここまで解答
 
 			// 最初の1件を取得
 			resEmployeeBean = responseBean.getEmplyeeBeanList().stream().findFirst().orElse(null);

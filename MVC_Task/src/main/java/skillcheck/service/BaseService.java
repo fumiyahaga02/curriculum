@@ -62,7 +62,6 @@ public abstract class BaseService {
 			this.connection = DriverManager.getConnection(ConstSQL.JDBC_CONNECTION, ConstSQL.JDBC_POSTGRES_USER, ConstSQL.JDBC_POSTGRES_PASS);
 //            this.connection = DriverManager.getConnection("", "", "");
 
-
 			// オートコミットOFF
 			this.connection.setAutoCommit(false);
 

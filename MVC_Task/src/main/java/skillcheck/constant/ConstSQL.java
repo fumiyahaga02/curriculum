@@ -14,7 +14,7 @@ public final class ConstSQL {
     /** JDMC接続先情報 */
     // MEMO: PostgreSQLを複数バージョン使用している場合は、ポート番号も指定
     // TODO: 接続先のポート番号は個々で異なるため、pgAdminのPostgreSQLより、接続先設定を参照してXXXXへ記述すること。
-    public static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lesson_db";
+    public static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lessen_db?useUnicode=true&characterEncoding=utf8";
     /** ユーザー名 */
     public static final String JDBC_POSTGRES_USER = "postgres";
     /** パスワード */

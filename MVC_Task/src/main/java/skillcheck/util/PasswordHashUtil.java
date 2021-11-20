@@ -61,6 +61,7 @@ public final class PasswordHashUtil {
             sb.append(String.format("%02x", b & 0xff));
         }
         Logger.log(new Throwable(), "HASHED: " + sb.toString());
+        System.out.println(sb.toString());
         return sb.toString();
     }
 
